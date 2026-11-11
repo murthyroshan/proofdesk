@@ -1,0 +1,50 @@
+[
+ {
+  "model": "raw",
+  "n": 39,
+  "correct": 19,
+  "accuracy": 0.487,
+  "false_accepts": 1,
+  "negatives": 14,
+  "false_accept_upper95": 0.315,
+  "true_supports": 3,
+  "positives": 14,
+  "abstained": 30
+ },
+ {
+  "model": "proofdesk",
+  "n": 39,
+  "correct": 33,
+  "accuracy": 0.846,
+  "false_accepts": 0,
+  "negatives": 14,
+  "false_accept_upper95": 0.215,
+  "true_supports": 14,
+  "positives": 14,
+  "abstained": 5
+ },
+ {
+  "model": "gemma",
+  "n": 49,
+  "correct": 33,
+  "accuracy": 0.673,
+  "false_accepts": 0,
+  "negatives": 24,
+  "false_accept_upper95": 0.138,
+  "true_supports": 11,
+  "positives": 14,
+  "abstained": 20
+ },
+ {
+  "model": "ensemble",
+  "n": 49,
+  "correct": 33,
+  "accuracy": 0.673,
+  "false_accepts": 0,
+  "negatives": 24,
+  "false_accept_upper95": 0.138,
+  "true_supports": 11,
+  "positives": 14,
+  "abstained": 21
+ }
+]

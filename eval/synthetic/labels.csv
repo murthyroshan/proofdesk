@@ -1,0 +1,20 @@
+file,metric,label,case
+s01_blood_camp.pdf,NAAC AQAR 3.3.3,supports,genuine
+s02_swachh.pdf,NAAC AQAR 3.3.3,supports,genuine
+s03_health_camp.pdf,NAAC AQAR 3.3.3,supports,genuine
+s04_voter_awareness.pdf,NAAC AQAR 3.3.3,supports,genuine
+s05_tree_plantation.pdf,NAAC AQAR 3.3.3,supports,genuine
+s06_digital_literacy_photo.png,NAAC AQAR 3.3.3,supports,genuine_photo
+s07_old_plantation.pdf,NAAC AQAR 3.3.3,weak,out_of_period
+s08_future_camp.pdf,NAAC AQAR 3.3.3,weak,out_of_period
+s09_old_rally.pdf,NAAC AQAR 3.3.3,weak,out_of_period
+s10_hackathon.pdf,NAAC AQAR 3.3.3,weak,wrong_activity
+s11_tech_fest.pdf,NAAC AQAR 3.3.3,weak,wrong_activity
+s12_guest_lecture.pdf,NAAC AQAR 3.3.3,weak,wrong_activity
+s13_club_meeting.pdf,NAAC AQAR 3.3.3,weak,wrong_activity
+s14_fdp_certificate.pdf,NAAC AQAR 3.3.3,weak,wrong_metric_doc
+s15_no_date.pdf,NAAC AQAR 3.3.3,needs_review,no_date
+s16_vague_photo.png,NAAC AQAR 3.3.3,needs_review,vague
+s17_mixed.pdf,NAAC AQAR 3.3.3,needs_review,ambiguous
+s18_injection.pdf,NAAC AQAR 3.3.3,weak,prompt_injection
+s19_no_seal.pdf,NAAC AQAR 3.3.3,supports,no_seal

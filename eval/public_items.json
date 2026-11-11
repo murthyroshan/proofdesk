@@ -1,0 +1,407 @@
+[
+ {
+  "file": "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_54261_.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/NSS_2.JPG",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/NSS_4.JPG",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_36558_.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_71713_.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_39082_.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Auxilium_College_Vellore_NSS_Special_Camp_at_Jawadhi_Hills.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Aditya_NSS_high_school_Turatpur_tributing_performance_for_independent_",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/N.S.S_SYMBOL.png",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "logo_not_evidence",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_62506_.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Auxilium_College_Vellore_NSS_Special_Camp_at_Jawadhi_Hills_38914_.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/NSS_3.JPG",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Jimmy_Rakesh_Planting_Trees.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Plantation_Gita.JPG",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Project-_Oneness_Vann_Site_an_Tree_Cluster_Created_by_Sant_Nirankari_M",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Project-_Oneness_Vann_Site_an_Tree_Cluster_Created_by_Sant_Nirankari_M",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Project-_Oneness_Vann_Site_an_Tree_Cluster_Created_by_Sant_Nirankari_M",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Plantation1.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Ajuttan_nCC.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|weak",
+  "case": "ncc_unclear",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Blood_donation_camp_at_Kelvin.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Blood_donation_camp_by_sudheekshan_foundation.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|supports",
+  "case": "outreach_photo_no_visible_date",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Southern_Railway_Cleanliness_Drive_-_palghat_division_-_notice.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|weak",
+  "case": "not_college_activity",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Southern_Railway_Cleanliness_Drive_-_palghat_division_-_notice_english",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "needs_review",
+  "acceptable": "needs_review|weak",
+  "case": "not_college_activity",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG154.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak|needs_review",
+  "case": "internal_event_photo",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG194.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak|needs_review",
+  "case": "internal_event_photo",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG156.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak|needs_review",
+  "case": "internal_event_photo",
+  "split": "dev"
+ },
+ {
+  "file": "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG190.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak|needs_review",
+  "case": "internal_event_photo",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG172.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak|needs_review",
+  "case": "internal_event_photo",
+  "split": "test"
+ },
+ {
+  "file": "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG170.jpg",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "public_cc",
+  "label": "weak",
+  "acceptable": "weak|needs_review",
+  "case": "internal_event_photo",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v01_anaemia_camp.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v02_school_science.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v03_voter_drive.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v04_flood_relief.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v05_yoga_village.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v06_road_safety.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v07_digital_payments.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v08_eye_camp_nostamp.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "supports",
+  "acceptable": "supports",
+  "case": "genuine_v2_no_stamp",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v09_freshers.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "internal_event_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v10_placement_training.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "internal_training_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v11_old_camp.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "out_of_period_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v12_future_camp.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "proposal_not_conducted_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v13_dept_seminar.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "academic_event_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v14_injection_v2.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "prompt_injection_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v15_sports_meet.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "internal_event_v2",
+  "split": "test"
+ },
+ {
+  "file": "synthetic_v2/v16_alumni_meet.pdf",
+  "metric": "NAAC AQAR 3.3.3",
+  "source": "synthetic_v2",
+  "label": "weak",
+  "acceptable": "weak",
+  "case": "internal_event_v2",
+  "split": "test"
+ }
+]

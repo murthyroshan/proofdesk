@@ -1,0 +1,51 @@
+# Metric pack: NAAC AQAR (affiliated-college template). Metric IDs verified from filed AQARs (see ProofDesk_Facts_Sources.md).
+# Framework-agnostic design: a new framework (NBA SAR, NAAC binary/MBGL) = a new YAML file, no code change.
+framework: NAAC AQAR
+version: 2026-11
+metrics:
+  - id: "3.3.3"
+    name: Extension and outreach programmes
+    unit: count            # claimed value = number of programmes
+    one_proof_per_item: true
+    beneficiary_rule: community   # code rule: 'supports' only if the activity was for the community
+    accepted_documents: [report, circular, photo]
+    rubric: >
+      The proof must show ONE extension or outreach programme conducted for the community
+      (e.g. awareness drive, village/school visit, blood donation camp, NSS/NCC activity, health camp,
+      environment drive). Acceptable: activity report, circular/notice announcing it, or a photo clearly
+      showing the activity. Internal-only events for the college's own students (technical fests,
+      workshops, club meetings, hackathons) are NOT extension/outreach.
+    required_fields: [activity_title, activity_date]
+
+  - id: "EV"
+    name: Events / workshops conducted by a department or club (internal metric)
+    unit: count
+    one_proof_per_item: true
+    accepted_documents: [report, circular, photo, attendance_sheet, certificate]
+    rubric: >
+      The proof must show ONE event, workshop, seminar, hackathon or guest lecture conducted by the
+      department or club. Acceptable: report, circular/notice, certificate template, attendance sheet or event photo.
+    required_fields: [activity_title, activity_date]
+
+  - id: "5.1.3"
+    name: Capacity building and skills enhancement initiatives for students
+    unit: count
+    one_proof_per_item: true
+    accepted_documents: [report, circular, photo, attendance_sheet, certificate]
+    rubric: >
+      The proof must show ONE capacity-building / skill-enhancement programme conducted FOR STUDENTS in one of:
+      soft skills, language and communication skills, life skills (yoga, physical fitness, health and hygiene),
+      or ICT/computing skills. Acceptable: programme report, circular/notice, attendance sheet, photo or brochure.
+      Regular curriculum classes, faculty-only programmes, and unrelated administrative documents are NOT valid.
+    required_fields: [activity_title, activity_date]
+
+  - id: "2.3.3"
+    name: Mentor to student ratio
+    unit: ratio
+    one_proof_per_item: false
+    accepted_documents: [circular, report, other]
+    rubric: >
+      The proof must be a mentor allotment record or circular that lists mentors and the number of
+      students assigned (or allows that count to be derived). A general mentoring policy without
+      allotment numbers is weak evidence.
+    required_fields: [mentor_count, student_count]

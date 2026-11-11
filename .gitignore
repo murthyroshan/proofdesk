@@ -1,0 +1,16 @@
+.env
+**/.env
+.cache/
+**/.cache/
+.raw_cache/
+__pycache__/
+*.pyc
+eval/real/
+eval/labeling_pack/
+eval/colab/*.zip
+eval/colab/*.ipynb
+eval/items.json
+eval/labels_*.csv
+eval/to_label_*.csv
+eval/results/gemma_results*.json
+app/index_v*.html

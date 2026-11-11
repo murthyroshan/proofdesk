@@ -1,0 +1,14 @@
+# Metric pack: NBA SAR (UG Engineering, Tier-II, GAPC v4.0, Jan 2025). Criterion 5.1 = 30 marks.
+framework: NBA SAR Tier-II
+version: 2026-11
+metrics:
+  - id: "5.1"
+    name: Student-Faculty Ratio (SFR)
+    unit: ratio
+    one_proof_per_item: false
+    accepted_documents: [report, circular, other]
+    rubric: >
+      The proof must be an official faculty list (names/designations, full-time status) or an enrolment
+      statement giving student numbers for the programme and year. Proofs must state the academic year.
+      A list without the year, or without full-time status, is weak evidence.
+    required_fields: [faculty_count, student_count]

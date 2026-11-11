@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Send proofs · ProofDesk</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0f2a2c">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--night:#0f2a2c;--paper:#f1ebdf;--card:#e9e0cd;--rule:#d5c8ac;--ink:#17191e;--muted:#6f747c;--acc:#f5c84c;--ok:#1f7a4d;--ok-soft:#e1efe6;--bad:#c2410c;
+  --serif:"Instrument Serif",Georgia,serif;--sans:Geist,system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,monospace}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.45}
+header{background:radial-gradient(500px 240px at 90% 0%,rgba(47,138,130,.35),transparent),var(--night);color:#eef0f6;padding:22px 20px 30px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:22px}
+.brand img{width:30px;height:30px;border-radius:8px}
+.brand em{color:var(--acc)}
+.kick{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);margin:22px 0 8px}
+h1{font-family:var(--serif);font-weight:400;font-size:36px;line-height:1.02;margin:0 0 10px;letter-spacing:-.5px}
+h1 em{font-style:italic;background:linear-gradient(100deg,transparent 2%,rgba(245,200,76,.5) 4%,rgba(245,200,76,.38) 96%,transparent 98%) 0 75%/100% 30% no-repeat}
+.req{font-size:13.5px;color:#c3c8d8}
+.req b{color:#fff;font-weight:500}
+main{padding:0 16px 40px;max-width:520px;margin:-16px auto 0}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:18px;box-shadow:0 12px 30px -18px rgba(40,30,10,.4)}
+.pick{display:flex;flex-direction:column;align-items:center;gap:6px;border:1.5px dashed #bfae8a;border-radius:12px;padding:26px 12px;text-align:center;cursor:pointer}
+.pick b{font-family:var(--serif);font-weight:400;font-size:24px}
+.pick span{color:var(--muted);font-size:13px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.btn{appearance:none;border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:11px;padding:13px 10px;font:600 14.5px var(--sans);text-align:center;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:#bfae8a}
+.btn:disabled{opacity:.45}
+.hidden{display:none}
+label.f{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:16px 0 6px}
+textarea{width:100%;border:1px solid var(--rule);border-radius:10px;background:#f4eee2;padding:10px;font:14px var(--sans);resize:vertical;min-height:54px}
+.list{margin-top:14px;display:flex;flex-direction:column;gap:8px}
+.it{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;background:#f4eee2;border:1px solid var(--rule);border-radius:10px;padding:9px 10px;animation:in .35s cubic-bezier(.2,.8,.2,1) both}
+.it .ic{width:30px;height:36px;border:1px solid #c8b993;border-radius:3px 9px 3px 3px;display:grid;place-items:center;font:500 8.5px var(--mono);color:var(--bad);background:var(--paper)}
+.it .nm{font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.it .st{font:500 11px var(--mono);color:var(--muted)}
+.it.done .st{color:var(--ok)}
+.it.err .st{color:var(--bad)}
+.bar{grid-column:2/4;height:3px;background:#e0d6c1;border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--night);transition:width .2s}
+.sent{display:flex;gap:12px;align-items:center;background:var(--ok-soft);border:1px solid #bfdcc9;border-radius:12px;padding:14px;margin-top:14px;animation:in .4s both}
+.sent svg{flex:none}
+.sent b{display:block}
+.note{font-size:12.5px;color:var(--muted);margin-top:16px;display:flex;gap:8px}
+.note svg{flex:none;margin-top:2px}
+footer{text-align:center;font-size:11.5px;color:var(--muted);padding:6px 16px 24px}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand"><img src="/favicon.svg" alt="">Proof<em>Desk</em></div>
+  <div class="kick">Proof request from your IQAC</div>
+  <h1>Send the <em>proofs</em> for your activities.</h1>
+  <div class="req" id="req">Loading request…</div>
+</header>
+<main>
+  <div class="card" id="box">
+    <div class="pick" id="pick" role="button" tabindex="0">
+      <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0f2a2c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 17v-6M9 14l3-3 3 3"/></svg>
+      <b>Add proofs</b>
+      <span>Circulars, reports, attendance-free photos or scans · PDF or photo</span>
+    </div>
+    <div class="btns">
+      <label class="btn ghost" for="cam">Take photo</label>
+      <label class="btn ghost" for="pdf">Choose files</label>
+    </div>
+    <input id="cam" class="hidden" type="file" accept="image/*" capture="environment">
+    <input id="pdf" class="hidden" type="file" accept=".pdf,image/*" multiple>
+    <label class="f" for="note">Note for the IQAC (optional)</label>
+    <textarea id="note" placeholder="e.g. Blood donation camp, 14 Sept 2023, with Rotary Club"></textarea>
+    <div class="list" id="list"></div>
+    <button class="btn" id="send" style="width:100%;margin-top:14px" disabled>Send to IQAC</button>
+    <div id="done"></div>
+    <div class="note"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg>
+      <span>No login needed. Files go only to your college's IQAC and are screened for student personal data on the IQAC's machine before any AI check. Please don't send attendance sheets or student lists.</span></div>
+  </div>
+</main>
+<footer>ProofDesk · AI flags, the IQAC decides · Not affiliated with NAAC or NBA</footer>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const token = location.pathname.split("/")[2];
+let queue = [];
+fetch(`/d/${token}/info`).then(r => r.ok ? r.json() : Promise.reject()).then(i => {
+  $("#req").innerHTML = `For <b>${esc(i.dept)}</b>${i.metric ? ` · ${esc(i.metric)}` : ""}${i.period ? ` · <b>${esc(i.period)}</b>` : ""}`;
+}).catch(() => { $("#req").textContent = "This link has expired. Ask your IQAC for a new one."; $("#box").classList.add("hidden"); });
+function add(fl) {
+  for (const f of fl) {
+    const it = document.createElement("div"); it.className = "it";
+    it.innerHTML = `<div class="ic">${esc((f.name.split(".").pop() || "").slice(0, 4).toUpperCase())}</div><div class="nm">${esc(f.name)}</div><div class="st">${(f.size / 1024).toFixed(0)} KB</div><div class="bar"><i></i></div>`;
+    $("#list").appendChild(it); queue.push({f, it});
+  }
+  $("#send").disabled = !queue.some(q => !q.sent);
+  $("#done").innerHTML = "";
+}
+$("#cam").onchange = e => add(e.target.files);
+$("#pdf").onchange = e => add(e.target.files);
+$("#pick").onclick = () => $("#pdf").click();
+$("#pick").onkeydown = e => { if (e.key === "Enter" || e.key === " ") $("#pdf").click(); };
+function upload(q) {
+  return new Promise(res => {
+    const fd = new FormData(); fd.append("file", q.f); fd.append("note", $("#note").value);
+    const x = new XMLHttpRequest(); x.open("POST", `/d/${token}/upload`);
+    x.upload.onprogress = e => { if (e.lengthComputable) q.it.querySelector(".bar i").style.width = (e.loaded / e.total * 100) + "%"; };
+    x.onload = () => { let m = ""; try { m = JSON.parse(x.responseText).error || ""; } catch (e) {}
+      if (x.status === 200) { q.sent = true; q.it.classList.add("done"); q.it.querySelector(".st").textContent = "sent ✓"; }
+      else { q.it.classList.add("err"); q.it.querySelector(".st").textContent = m || "failed"; }
+      res(); };
+    x.onerror = () => { q.it.classList.add("err"); q.it.querySelector(".st").textContent = "no connection"; res(); };
+    x.send(fd);
+  });
+}
+$("#send").onclick = async () => {
+  $("#send").disabled = true; $("#send").textContent = "Sending…";
+  const todo = queue.filter(q => !q.sent);
+  for (const q of todo) await upload(q);
+  const ok = todo.filter(q => q.sent).length;
+  $("#send").textContent = "Send to IQAC";
+  if (ok) $("#done").innerHTML = `<div class="sent"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1f7a4d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+    <div><b>${ok} proof${ok > 1 ? "s" : ""} sent to your IQAC</b><span style="font-size:13px;color:#4b5a50">You can close this page, or add more.</span></div></div>`;
+  $("#send").disabled = !queue.some(q => !q.sent);
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+file,metric,label,case
+v01_anaemia_camp.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v02_school_science.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v03_voter_drive.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v04_flood_relief.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v05_yoga_village.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v06_road_safety.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v07_digital_payments.pdf,NAAC AQAR 3.3.3,supports,genuine_v2
+v08_eye_camp_nostamp.pdf,NAAC AQAR 3.3.3,supports,genuine_v2_no_stamp
+v09_freshers.pdf,NAAC AQAR 3.3.3,weak,internal_event_v2
+v10_placement_training.pdf,NAAC AQAR 3.3.3,weak,internal_training_v2
+v11_old_camp.pdf,NAAC AQAR 3.3.3,weak,out_of_period_v2
+v12_future_camp.pdf,NAAC AQAR 3.3.3,weak,proposal_not_conducted_v2
+v13_dept_seminar.pdf,NAAC AQAR 3.3.3,weak,academic_event_v2
+v14_injection_v2.pdf,NAAC AQAR 3.3.3,weak,prompt_injection_v2
+v15_sports_meet.pdf,NAAC AQAR 3.3.3,weak,internal_event_v2
+v16_alumni_meet.pdf,NAAC AQAR 3.3.3,weak,internal_event_v2

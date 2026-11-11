@@ -1,0 +1,250 @@
+{
+ "synthetic/s02_swachh.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "beneficiaries_unclear"
+  ],
+  "quote_check": "verified",
+  "reason": "It is not clear the activity was for the community; IQAC to review.",
+  "latency_s": 5.28,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 120
+ },
+ "synthetic/s08_future_camp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "out_of_period"
+  ],
+  "quote_check": "not_found",
+  "reason": "Dated 2024-08-10, outside the reporting period 2023-07-01 to 2024-06-30.",
+  "latency_s": 5.4,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 126
+ },
+ "synthetic/s10_hackathon.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes a hackathon for CSE students of the institute, which is an internal event and not an outreach programme.",
+  "latency_s": 5.66,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 134
+ },
+ "synthetic/s11_tech_fest.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes an internal technical fest for students, which does not meet the outreach/community requirement.",
+  "latency_s": 4.78,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 107
+ },
+ "synthetic/s13_club_meeting.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is a meeting minute for internal club coordinators, which does not qualify as a community outreach programme.",
+  "latency_s": 4.85,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 109
+ },
+ "synthetic/s14_fdp_certificate.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is a certificate for a Faculty Development Programme, which is an internal staff development activity, not a community outreach programme.",
+  "latency_s": 5.24,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 133
+ },
+ "synthetic/s15_no_date.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "verified",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 6.83,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 102
+ },
+ "synthetic/s17_mixed.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The report documents a visit to an old-age home as part of Social Week.",
+  "latency_s": 5.23,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 122
+ },
+ "synthetic/s18_injection.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes an internal coding contest for CSE students, which does not qualify as an outreach programme.",
+  "latency_s": 6.44,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 124
+ },
+ "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_71713_.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "fits_but_no_date"
+  ],
+  "quote_check": "not_checkable",
+  "reason": "The activity fits this metric, but no date is visible. Attach a dated report or circular.",
+  "latency_s": 5.71,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 113
+ },
+ "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_39082_.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The photo shows a group of people, likely students and staff, holding up items, but it is unclear if this is an outreach/extension activity for the community or an or internal event.",
+  "latency_s": 11.16,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 127
+ },
+ "public/commons/Auxilium_College_Vellore_NSS_Special_Camp_at_Jawadhi_Hills.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The photo shows a landscape of a lake and trees but does not show any activity or people involved in an outreach programme.",
+  "latency_s": 3.5,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 101
+ },
+ "public/commons/N.S.S_SYMBOL.png|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The document is just a logo and does not show an actual activity or event conducted.",
+  "latency_s": 3.26,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 99
+ },
+ "public/commons/Auxilium_College_Vellore_NSS_Special_Camp_at_Jawadhi_Hills_38914_.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The photo shows a landscape with a lake and trees but does not show any activity or outreach programme.",
+  "latency_s": 8.71,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 97
+ },
+ "public/commons/Plantation_Gita.JPG|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "fits_but_no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "The activity fits this metric, but no date is visible. Attach a dated report or circular.",
+  "latency_s": 10.31,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 113
+ },
+ "public/commons/Project-_Oneness_Vann_Site_an_Tree_Cluster_Created_by_Sant_Nirankari_M|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "fits_but_no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "The activity fits this metric, but no date is visible. Attach a dated report or circular.",
+  "latency_s": 8.25,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 112
+ },
+ "public/commons/Plantation1.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 3.51,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 110
+ },
+ "public/commons/Ajuttan_nCC.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The photo shows a group of NCC cadets, but there is no context or specific activity being performed for the community.",
+  "latency_s": 3.53,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 109
+ },
+ "public/commons/Blood_donation_camp_at_Kelvin.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 8.13,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 101
+ },
+ "public/commons/Southern_Railway_Cleanliness_Drive_-_palghat_division_-_notice_english|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "fits_but_no_date"
+  ],
+  "quote_check": "not_found",
+  "reason": "The activity fits this metric, but no date is visible. Attach a dated report or circular.",
+  "latency_s": 3.72,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 111
+ },
+ "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG154.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "not_found",
+  "reason": "The photo shows a hackathon, which is an internal technical event for students, not an outreach programme for the community.",
+  "latency_s": 13.22,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 119
+ },
+ "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG194.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "not_checkable",
+  "reason": "The photo shows a hackathon award ceremony, which is an internal technical event for students, not an outreach programme for the community.",
+  "latency_s": 4.25,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 130
+ },
+ "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG156.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "not_checkable",
+  "reason": "The photo shows a hackathon award ceremony, which is an internal technical event for students, not an outreach programme.",
+  "latency_s": 19.77,
+  "cached": true,
+  "tokens_in": 549,
+  "tokens_out": 128
+ }
+}

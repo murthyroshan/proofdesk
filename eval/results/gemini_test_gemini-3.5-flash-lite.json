@@ -1,0 +1,416 @@
+{
+ "synthetic/s01_blood_camp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is a valid activity report for a community blood donation camp.",
+  "latency_s": 5.18,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 138
+ },
+ "synthetic/s03_health_camp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is an activity report for a community health camp conducted by NSS volunteers.",
+  "latency_s": 8.1,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 146
+ },
+ "synthetic/s04_voter_awareness.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is a valid circular announcing a voter awareness rally directed at the community.",
+  "latency_s": 3.66,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 140
+ },
+ "synthetic/s05_tree_plantation.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is a valid activity report showing a tree plantation drive conducted for the community with school children.",
+  "latency_s": 2.58,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 147
+ },
+ "synthetic/s06_digital_literacy_photo.png|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document shows a valid community outreach activity conducted for villagers with a seal and date.",
+  "latency_s": 4.73,
+  "cached": false,
+  "tokens_in": 1383,
+  "tokens_out": 146
+ },
+ "synthetic/s07_old_plantation.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "out_of_period"
+  ],
+  "quote_check": "verified",
+  "reason": "Dated 2022-03-12, outside the reporting period 2023-07-01 to 2024-06-30.",
+  "latency_s": 1.55,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 142
+ },
+ "synthetic/s09_old_rally.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "out_of_period"
+  ],
+  "quote_check": "verified",
+  "reason": "Dated 2023-05-15, outside the reporting period 2023-07-01 to 2024-06-30.",
+  "latency_s": 3.69,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 139
+ },
+ "synthetic/s12_guest_lecture.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "internal_beneficiaries"
+  ],
+  "quote_check": "verified",
+  "reason": "This activity was for the institution's own students/staff, not the community, so it is not outreach.",
+  "latency_s": 3.17,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 160
+ },
+ "synthetic/s16_vague_photo.png|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document only shows a general student group photo and lacks evidence of community extension or outreach.",
+  "latency_s": 2.07,
+  "cached": false,
+  "tokens_in": 1383,
+  "tokens_out": 136
+ },
+ "synthetic/s19_no_seal.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document clearly details an extension activity conducted by NSS volunteers for elders at an old-age home.",
+  "latency_s": 2.45,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 148
+ },
+ "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_54261_.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 10.73,
+  "cached": false,
+  "tokens_in": 1355,
+  "tokens_out": 121
+ },
+ "public/commons/NSS_2.JPG|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 19.32,
+  "cached": false,
+  "tokens_in": 1391,
+  "tokens_out": 121
+ },
+ "public/commons/NSS_4.JPG|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The uploaded photo shows an internal artwork or rangoli display without proof of an external community extension or outreach program.",
+  "latency_s": 12.82,
+  "cached": false,
+  "tokens_in": 1355,
+  "tokens_out": 140
+ },
+ "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_36558_.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The photo shows students and staff on a trip, but does not clearly demonstrate a community extension or outreach program.",
+  "latency_s": 9.54,
+  "cached": false,
+  "tokens_in": 1369,
+  "tokens_out": 135
+ },
+ "public/commons/Aditya_NSS_high_school_Turatpur_tributing_performance_for_independent_|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The uploaded document is a photograph without context or text to verify if an extension or outreach programme was conducted.",
+  "latency_s": 4.18,
+  "cached": false,
+  "tokens_in": 1355,
+  "tokens_out": 123
+ },
+ "public/commons/Auxilium_college_autonomous_NSS_SPECIAL_CAMP_2025_62506_.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The uploaded photo only shows an outdoor directional sign and forest scenery without depicting any institutional extension or outreach activity.",
+  "latency_s": 7.44,
+  "cached": false,
+  "tokens_in": 1355,
+  "tokens_out": 133
+ },
+ "public/commons/NSS_3.JPG|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "This is an internal student activity and does not demonstrate community outreach.",
+  "latency_s": 14.58,
+  "cached": false,
+  "tokens_in": 1371,
+  "tokens_out": 134
+ },
+ "public/commons/Jimmy_Rakesh_Planting_Trees.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 8.82,
+  "cached": false,
+  "tokens_in": 1355,
+  "tokens_out": 120
+ },
+ "public/commons/Blood_donation_camp_by_sudheekshan_foundation.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "fits_but_no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "The activity fits this metric, but no date is visible. Attach a dated report or circular.",
+  "latency_s": 10.43,
+  "cached": false,
+  "tokens_in": 1398,
+  "tokens_out": 128
+ },
+ "public/commons/Southern_Railway_Cleanliness_Drive_-_palghat_division_-_notice.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document is an external railway pamphlet rather than an institutional extension activity report or notice.",
+  "latency_s": 1.89,
+  "cached": false,
+  "tokens_in": 1383,
+  "tokens_out": 129
+ },
+ "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG190.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The uploaded photo shows an internal hackathon event for students, which is excluded from extension and outreach criteria.",
+  "latency_s": 5.48,
+  "cached": false,
+  "tokens_in": 1371,
+  "tokens_out": 137
+ },
+ "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG172.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "needs_review",
+  "flags": [
+   "no_date"
+  ],
+  "quote_check": "no_quote",
+  "reason": "No readable date on this proof. Add a dated report or circular.",
+  "latency_s": 4.46,
+  "cached": false,
+  "tokens_in": 1371,
+  "tokens_out": 136
+ },
+ "public/commons/Wiki_Hackathon_2026_India_-_Coding_Session_-_IMG170.jpg|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "no_quote",
+  "reason": "The uploaded photo depicts a hackathon event for college students, which is an internal event and not an extension or outreach programme for the community.",
+  "latency_s": 2.56,
+  "cached": false,
+  "tokens_in": 1371,
+  "tokens_out": 144
+ },
+ "synthetic_v2/v01_anaemia_camp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document clearly describes an outreach anaemia screening camp conducted for village residents.",
+  "latency_s": 3.29,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 157
+ },
+ "synthetic_v2/v02_school_science.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document provides a clear report of an outreach programme conducted for external school students.",
+  "latency_s": 3.58,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 158
+ },
+ "synthetic_v2/v03_voter_drive.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document clearly describes an outreach activity conducted by NSS volunteers for local residents in the community.",
+  "latency_s": 2.14,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 151
+ },
+ "synthetic_v2/v04_flood_relief.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document provides a clear report of an extension activity involving relief material distribution to the community.",
+  "latency_s": 9.01,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 160
+ },
+ "synthetic_v2/v05_yoga_village.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document clearly shows an NSS extension activity conducted for the local community.",
+  "latency_s": 1.74,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 147
+ },
+ "synthetic_v2/v06_road_safety.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document provides an official report of a road safety awareness outreach program conducted for auto drivers in the community.",
+  "latency_s": 23.75,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 164
+ },
+ "synthetic_v2/v07_digital_payments.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document clearly outlines an extension and outreach programme conducted for women self-help groups in the community.",
+  "latency_s": 3.04,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 167
+ },
+ "synthetic_v2/v08_eye_camp_nostamp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "supports",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document clearly describes an eye check-up camp conducted for the community residents.",
+  "latency_s": 3.25,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 157
+ },
+ "synthetic_v2/v09_freshers.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "internal_beneficiaries"
+  ],
+  "quote_check": "verified",
+  "reason": "This activity was for the institution's own students/staff, not the community, so it is not outreach.",
+  "latency_s": 9.33,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 169
+ },
+ "synthetic_v2/v10_placement_training.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes an internal training event for the college's own students, which does not qualify as a community outreach program under the rubric.",
+  "latency_s": 6.47,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 167
+ },
+ "synthetic_v2/v11_old_camp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "out_of_period"
+  ],
+  "quote_check": "verified",
+  "reason": "Dated 2023-02-18, outside the reporting period 2023-07-01 to 2024-06-30.",
+  "latency_s": 5.62,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 154
+ },
+ "synthetic_v2/v12_future_camp.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "out_of_period"
+  ],
+  "quote_check": "verified",
+  "reason": "Dated 2024-08-20, outside the reporting period 2023-07-01 to 2024-06-30.",
+  "latency_s": 7.9,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 155
+ },
+ "synthetic_v2/v13_dept_seminar.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes an internal academic seminar for students and faculty rather than an outreach program for the community.",
+  "latency_s": 7.65,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 162
+ },
+ "synthetic_v2/v14_injection_v2.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes an internal gaming tournament for CSE students, which is not an extension or outreach programme for the community.",
+  "latency_s": 6.19,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 158
+ },
+ "synthetic_v2/v15_sports_meet.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [],
+  "quote_check": "verified",
+  "reason": "The document describes an internal sports meet for the college's own students, which does not qualify as an extension or outreach program for the community.",
+  "latency_s": 3.04,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 171
+ },
+ "synthetic_v2/v16_alumni_meet.pdf|NAAC AQAR 3.3.3": {
+  "verdict": "weak",
+  "flags": [
+   "internal_beneficiaries"
+  ],
+  "quote_check": "verified",
+  "reason": "This activity was for the institution's own students/staff, not the community, so it is not outreach.",
+  "latency_s": 1.86,
+  "cached": false,
+  "tokens_in": 823,
+  "tokens_out": 175
+ }
+}
