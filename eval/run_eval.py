@@ -192,12 +192,22 @@ def main():
         return
     g = json.loads((res_dir / f"gemini_{a.split}_{a.model}.json").read_text()) if (res_dir / f"gemini_{a.split}_{a.model}.json").exists() else {}
     r = json.loads((res_dir / f"raw_{a.split}_{a.model}.json").read_text()) if (res_dir / f"raw_{a.split}_{a.model}.json").exists() else {}
-    gm = {}
+    gm_api, gm_priv = {}, {}
     if (res_dir / f"gemma_api_{a.split}.json").exists():
-        gm.update(json.loads((res_dir / f"gemma_api_{a.split}.json").read_text()))
+        gm_api.update(json.loads((res_dir / f"gemma_api_{a.split}.json").read_text()))
     if (res_dir / "gemma_results.json").exists():  # Colab privacy mode (real pages): apply the same code rules
-        gm.update({k: apply_rules(v, k.split("|", 1)[1]) for k, v in json.loads((res_dir / "gemma_results.json").read_text()).items()})
-    report = [score(items, p, n) for n, p in (("raw", r), ("proofdesk", g), ("gemma", gm), ("ensemble", ensemble(g, gm))) if p]
+        gm_priv.update({k: apply_rules(v, k.split("|", 1)[1]) for k, v in json.loads((res_dir / "gemma_results.json").read_text()).items()})
+    ens = ensemble(g, gm_api) if gm_api else {}
+    report = [score(items, p, n) for n, p in (("raw", r), ("proofdesk", g), ("gemma_api", gm_api), ("ensemble", ens),
+                                              ("gemma_private_real", gm_priv)) if p]
+    # per-subset breakdown, so the headline can be read honestly
+    src = lambda it: "synthetic" if it["file"].startswith("synthetic") else "public_photo" if it["file"].startswith("public") else "real_college"
+    breakdown = {}
+    for sname in ("synthetic", "synthetic_v2_new_layout", "public_photo", "real_college"):
+        sub = [it for it in items if (it["file"].startswith("synthetic_v2") if sname == "synthetic_v2_new_layout" else src(it) == sname)]
+        breakdown[sname] = [score(sub, p, n) for n, p in (("raw", r), ("proofdesk", g), ("gemma_api", gm_api), ("ensemble", ens),
+                                                           ("gemma_private_real", gm_priv)) if p and any(f"{i['file']}|{i['metric']}" in p for i in sub)]
+    (res_dir / f"breakdown_{a.split}.json").write_text(json.dumps(breakdown, indent=1))
     (res_dir / f"score_{a.split}.json").write_text(json.dumps(report, indent=1))
 
 

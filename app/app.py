@@ -1,7 +1,7 @@
 """ProofDesk prototype web app.
 
 Run (from this folder):  python -m uvicorn app:app --port 8000
-Needs GEMINI_API_KEY in .env. Optional GEMINI_MODEL (default gemini-3.5-flash).
+Needs GEMINI_API_KEY in .env. Optional GEMINI_MODEL (default gemini-3.5-flash-lite).
 """
 from __future__ import annotations
 

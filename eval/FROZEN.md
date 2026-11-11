@@ -1,4 +1,4 @@
-# FROZEN for held-out test — 2026-11-10T20:35
+# FROZEN for held-out test â€” 2026-11-10T20:35
 Prompt/schema version: v4 (beneficiaries field)
 Verifier model: gemini-3.5-flash-lite (temperature 0, structured JSON)
 Second checker: gemma-4-26b-a4b-it via API (non-sensitive items); gemma3:4b on Colab (real college pages)
@@ -14,3 +14,5 @@ Note: apply_rules now mirrors engine's frozen beneficiary rule (consistency fix,
 
 Post-freeze change (scoring only, no prompt/model/rule change): eval/run_eval.py after the apply_rules consistency fix = 733dd1e459d1e40c.
 The engine and metric packs are unchanged since the freeze (hashes above still match).
+
+Post-freeze change 2 (12 Nov, reporting only, no prompt/model/rule change): score now prints the Gemma API run and the private real-page Gemma run as separate rows and writes results/breakdown_test.json (per subset: synthetic, public photos, real pages). eval/run_eval.py = 71301e440df49724 (also adds the synthetic_v2_new_layout subset row).

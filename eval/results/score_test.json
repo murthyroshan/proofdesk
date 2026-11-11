@@ -24,27 +24,39 @@
   "abstained": 5
  },
  {
-  "model": "gemma",
-  "n": 49,
+  "model": "gemma_api",
+  "n": 39,
   "correct": 33,
-  "accuracy": 0.673,
+  "accuracy": 0.846,
   "false_accepts": 0,
-  "negatives": 24,
-  "false_accept_upper95": 0.138,
+  "negatives": 14,
+  "false_accept_upper95": 0.215,
   "true_supports": 11,
   "positives": 14,
-  "abstained": 20
+  "abstained": 10
  },
  {
   "model": "ensemble",
-  "n": 49,
+  "n": 39,
   "correct": 33,
-  "accuracy": 0.673,
+  "accuracy": 0.846,
   "false_accepts": 0,
-  "negatives": 24,
-  "false_accept_upper95": 0.138,
+  "negatives": 14,
+  "false_accept_upper95": 0.215,
   "true_supports": 11,
   "positives": 14,
-  "abstained": 21
+  "abstained": 11
+ },
+ {
+  "model": "gemma_private_real",
+  "n": 10,
+  "correct": 0,
+  "accuracy": 0.0,
+  "false_accepts": 0,
+  "negatives": 10,
+  "false_accept_upper95": 0.278,
+  "true_supports": 0,
+  "positives": 0,
+  "abstained": 10
  }
 ]

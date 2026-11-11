@@ -715,7 +715,7 @@ html[data-theme=dark] h1 em,html[data-theme=dark] .h2 em{background-size:100% 30
       <!-- 7. CTA -->
       <div class="ink-cta reveal">
         <div class="orb o3"></div>
-        <h2 class="display sm">Know what will survive verification, <em>before</em> NAAC does.</h2>
+        <h2 class="display sm">Know what your proof actually backs, <em>before</em> NAAC checks.</h2>
         <div class="cta"><button class="btn light" data-go="audit">Run a pre-audit</button><button class="btn outline" data-go="cons">Cross-report checks</button></div>
       </div>
     </section>
@@ -759,7 +759,7 @@ html[data-theme=dark] h1 em,html[data-theme=dark] .h2 em{background-size:100% 30
           <div class="card tally">
             <div class="k"><div class="num" id="tClaimed">0</div><div class="cap">claimed</div></div>
             <div class="k"><div class="num" id="tProven" style="color:var(--ok)">0</div><div class="cap">backed by valid proof</div></div>
-            <div class="k"><div class="num" id="tDev" style="color:var(--bad)">0</div><div class="cap">would not survive verification</div></div>
+            <div class="k"><div class="num" id="tDev" style="color:var(--bad)">0</div><div class="cap">not backed by valid proof</div></div>
             <div class="meter"><i class="m-ok" id="mOk"></i><i class="m-rev" id="mRev"></i><i class="m-bad" id="mBad"></i></div>
             <div class="legend"><span><i class="m-ok"></i>verified</span><span><i style="background:#d9b65a"></i>needs IQAC review</span><span><i class="m-bad"></i>flagged</span><span id="speed" style="margin-left:auto;font-family:var(--mono)"></span></div>
           </div>
@@ -1006,7 +1006,7 @@ function showReport() {
   const lat = results.map(r => r.gemini && r.gemini.latency_s).filter(x => x > 0);
   $("#speed").textContent = lat.length ? `${results.length} proofs · model ${(lat.reduce((a, b) => a + b, 0) / lat.length).toFixed(1)} s / proof` : `${results.length} proofs`;
   $("#recoHead").innerHTML = dev ? `Report <b>${ok}</b>, not ${claimed}.` : `All <b>${claimed}</b> claims are backed.`;
-  $("#recoText").textContent = dev ? `${bad} proof${bad == 1 ? "" : "s"} would not survive verification${rev ? ` and ${rev} need${rev == 1 ? "s" : ""} a human look` : ""}. Fix or replace ${bad + rev == 1 ? "it" : "them"} before the IQAC submits, or lower the claim to ${ok}.`
+  $("#recoText").textContent = dev ? `${bad} proof${bad == 1 ? " doesn't" : "s don't"} back the claim${rev ? ` and ${rev} need${rev == 1 ? "s" : ""} a human look` : ""}. Fix or replace ${bad + rev == 1 ? "it" : "them"} before the IQAC submits, or lower the claim to ${ok}.`
                                    : "Every claimed activity has a valid, dated proof inside the reporting period.";
   $("#rows").innerHTML = results.map((v, i) => `<div class="row" data-i="${i}" tabindex="0" style="animation-delay:${200 + i * 90}ms">
      <div style="font-family:var(--mono);font-size:11px;color:var(--muted)">${String(i + 1).padStart(2, "0")}</div>

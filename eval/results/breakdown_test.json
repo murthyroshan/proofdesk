@@ -1,0 +1,166 @@
+{
+ "synthetic": [
+  {
+   "model": "raw",
+   "n": 26,
+   "correct": 7,
+   "accuracy": 0.269,
+   "false_accepts": 1,
+   "negatives": 11,
+   "false_accept_upper95": 0.377,
+   "true_supports": 3,
+   "positives": 14,
+   "abstained": 18
+  },
+  {
+   "model": "proofdesk",
+   "n": 26,
+   "correct": 25,
+   "accuracy": 0.962,
+   "false_accepts": 0,
+   "negatives": 11,
+   "false_accept_upper95": 0.259,
+   "true_supports": 14,
+   "positives": 14,
+   "abstained": 0
+  },
+  {
+   "model": "gemma_api",
+   "n": 26,
+   "correct": 22,
+   "accuracy": 0.846,
+   "false_accepts": 0,
+   "negatives": 11,
+   "false_accept_upper95": 0.259,
+   "true_supports": 11,
+   "positives": 14,
+   "abstained": 3
+  },
+  {
+   "model": "ensemble",
+   "n": 26,
+   "correct": 22,
+   "accuracy": 0.846,
+   "false_accepts": 0,
+   "negatives": 11,
+   "false_accept_upper95": 0.259,
+   "true_supports": 11,
+   "positives": 14,
+   "abstained": 3
+  }
+ ],
+ "synthetic_v2_new_layout": [
+  {
+   "model": "raw",
+   "n": 16,
+   "correct": 4,
+   "accuracy": 0.25,
+   "false_accepts": 1,
+   "negatives": 8,
+   "false_accept_upper95": 0.471,
+   "true_supports": 2,
+   "positives": 8,
+   "abstained": 11
+  },
+  {
+   "model": "proofdesk",
+   "n": 16,
+   "correct": 16,
+   "accuracy": 1.0,
+   "false_accepts": 0,
+   "negatives": 8,
+   "false_accept_upper95": 0.324,
+   "true_supports": 8,
+   "positives": 8,
+   "abstained": 0
+  },
+  {
+   "model": "gemma_api",
+   "n": 16,
+   "correct": 14,
+   "accuracy": 0.875,
+   "false_accepts": 0,
+   "negatives": 8,
+   "false_accept_upper95": 0.324,
+   "true_supports": 6,
+   "positives": 8,
+   "abstained": 2
+  },
+  {
+   "model": "ensemble",
+   "n": 16,
+   "correct": 14,
+   "accuracy": 0.875,
+   "false_accepts": 0,
+   "negatives": 8,
+   "false_accept_upper95": 0.324,
+   "true_supports": 6,
+   "positives": 8,
+   "abstained": 2
+  }
+ ],
+ "public_photo": [
+  {
+   "model": "raw",
+   "n": 13,
+   "correct": 12,
+   "accuracy": 0.923,
+   "false_accepts": 0,
+   "negatives": 3,
+   "false_accept_upper95": 0.562,
+   "true_supports": 0,
+   "positives": 0,
+   "abstained": 12
+  },
+  {
+   "model": "proofdesk",
+   "n": 13,
+   "correct": 8,
+   "accuracy": 0.615,
+   "false_accepts": 0,
+   "negatives": 3,
+   "false_accept_upper95": 0.562,
+   "true_supports": 0,
+   "positives": 0,
+   "abstained": 5
+  },
+  {
+   "model": "gemma_api",
+   "n": 13,
+   "correct": 11,
+   "accuracy": 0.846,
+   "false_accepts": 0,
+   "negatives": 3,
+   "false_accept_upper95": 0.562,
+   "true_supports": 0,
+   "positives": 0,
+   "abstained": 7
+  },
+  {
+   "model": "ensemble",
+   "n": 13,
+   "correct": 11,
+   "accuracy": 0.846,
+   "false_accepts": 0,
+   "negatives": 3,
+   "false_accept_upper95": 0.562,
+   "true_supports": 0,
+   "positives": 0,
+   "abstained": 8
+  }
+ ],
+ "real_college": [
+  {
+   "model": "gemma_private_real",
+   "n": 10,
+   "correct": 0,
+   "accuracy": 0.0,
+   "false_accepts": 0,
+   "negatives": 10,
+   "false_accept_upper95": 0.278,
+   "true_supports": 0,
+   "positives": 0,
+   "abstained": 10
+  }
+ ]
+}
